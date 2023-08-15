@@ -1,16 +1,10 @@
 import { Link } from "react-router-dom";
 import { useContext, useState, useEffect } from "react";
-import { GoSearch } from "react-icons/go";
-import { BsImage } from "react-icons/bs";
-import { BiNews } from "react-icons/bi";
-import { RiVideoLine } from "react-icons/ri";
-import { SlTag } from "react-icons/sl";
-
 import Logo from "../assets/google-logo.png";
 import SearchInput from "./SearchInput";
 import ProfileIcon from "./ProfileIcon";
 import { Context } from "../utils/ContextApi";
-import { menu } from "../utils/constants";
+import { menu } from "../utils/Constants";
 
 const SearchResultHeader = () => {
     const [selectedMenu, setSelectedMenu] = useState("All");
